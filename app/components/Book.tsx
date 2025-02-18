@@ -26,8 +26,8 @@ export default function Book({
   const { viewport, camera } = useThree();
 
   // Load textures
-  const coverTexture = useTexture("/front.png");
-  const spineTexture = useTexture("/spine.png");
+  const coverTexture = useTexture("/6/Cover.png");
+  const spineTexture = useTexture("/6/Spine.png");
 
   // Create vertical pages texture (for right side)
   const pagesTextureVertical = useMemo(() => {

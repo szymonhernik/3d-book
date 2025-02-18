@@ -34,3 +34,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# public folder exclusions
+/public/**/*.png
+/public/1/
+/public/2/
+/public/3/
+/public/4/
+/public/5/
+/public/6/
+/public/7/
+/public/8/
+/public/9/
+/public/10/
